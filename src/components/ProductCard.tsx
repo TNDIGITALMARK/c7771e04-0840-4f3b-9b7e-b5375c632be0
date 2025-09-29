@@ -49,10 +49,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           className="aspect-square bg-gradient-to-br from-[hsl(var(--toypaws-cream))] to-[hsl(var(--toypaws-soft-purple))]/20 flex items-center justify-center p-4 group-hover:scale-105 transition-transform duration-300"
           onClick={() => onProductClick?.(product)}
         >
-          {/* Placeholder for product image */}
-          <div className="w-full h-full bg-white/50 rounded-xl flex items-center justify-center">
-            <span className="text-6xl opacity-80">🧸</span>
-          </div>
+          {/* Product image */}
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-full h-full object-cover rounded-xl shadow-md"
+          />
         </div>
 
         {/* Badges */}

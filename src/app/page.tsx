@@ -217,10 +217,12 @@ export default function HomePage() {
                   "{testimonial.comment}"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-[hsl(var(--toypaws-coral))] rounded-full flex items-center justify-center mr-3">
-                    <span className="text-white font-semibold">
-                      {testimonial.name.charAt(0)}
-                    </span>
+                  <div className="w-10 h-10 rounded-full overflow-hidden mr-3 ring-2 ring-[hsl(var(--toypaws-coral))]/20">
+                    <img
+                      src={testimonial.avatar}
+                      alt={`${testimonial.name} avatar`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">{testimonial.name}</p>

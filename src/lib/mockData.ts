@@ -7,7 +7,7 @@ export const mockProducts: Product[] = [
     name: 'Fluffy Brown Bear',
     price: 24.99,
     originalPrice: 29.99,
-    image: '/images/fluffy-brown-bear.jpg',
+    image: '/generated/fluffy-brown-bear-product.png',
     rating: 4.8,
     reviewCount: 127,
     category: 'bears',
@@ -18,7 +18,7 @@ export const mockProducts: Product[] = [
     id: '2',
     name: 'Tiny Sunshine Bear',
     price: 24.99,
-    image: '/images/tiny-sunshine-bear.jpg',
+    image: '/generated/tiny-sunshine-bear.jpg',
     rating: 4.6,
     reviewCount: 89,
     category: 'bears',
@@ -29,7 +29,7 @@ export const mockProducts: Product[] = [
     id: '3',
     name: 'My Sleepy Bear',
     price: 24.99,
-    image: '/images/my-sleepy-bear.jpg',
+    image: '/generated/my-sleepy-bear.jpg',
     rating: 4.9,
     reviewCount: 156,
     category: 'bears',
@@ -41,7 +41,7 @@ export const mockProducts: Product[] = [
     id: '4',
     name: 'Moo-nificent Cow',
     price: 24.99,
-    image: '/images/moo-cow.jpg',
+    image: '/generated/moo-cow.jpg',
     rating: 4.7,
     reviewCount: 94,
     category: 'farm animals',
@@ -52,7 +52,7 @@ export const mockProducts: Product[] = [
     name: 'Baa-utiful Sheep',
     price: 22.99,
     originalPrice: 26.99,
-    image: '/images/sheep.jpg',
+    image: '/generated/sheep.jpg',
     rating: 4.5,
     reviewCount: 73,
     category: 'farm animals',
@@ -62,7 +62,7 @@ export const mockProducts: Product[] = [
     id: '6',
     name: 'Happy Pig',
     price: 21.99,
-    image: '/images/happy-pig.jpg',
+    image: '/generated/happy-pig.jpg',
     rating: 4.8,
     reviewCount: 112,
     category: 'farm animals',
@@ -76,7 +76,7 @@ export const mockProducts: Product[] = [
     name: 'Roaring Lion',
     price: 29.99,
     originalPrice: 34.99,
-    image: '/images/roaring-lion.jpg',
+    image: '/generated/roaring-lion-product.png',
     rating: 4.9,
     reviewCount: 201,
     category: 'wild animals',
@@ -87,7 +87,7 @@ export const mockProducts: Product[] = [
     id: '8',
     name: 'Gentle Elephant',
     price: 32.99,
-    image: '/images/gentle-elephant.jpg',
+    image: '/generated/gentle-elephant.jpg',
     rating: 4.7,
     reviewCount: 145,
     category: 'wild animals',
@@ -97,7 +97,7 @@ export const mockProducts: Product[] = [
     id: '9',
     name: 'Playful Monkey',
     price: 19.99,
-    image: '/images/playful-monkey.jpg',
+    image: '/generated/playful-monkey.jpg',
     rating: 4.6,
     reviewCount: 88,
     category: 'wild animals',
@@ -110,7 +110,7 @@ export const mockProducts: Product[] = [
     id: '10',
     name: 'Ocean Whale',
     price: 27.99,
-    image: '/images/ocean-whale.jpg',
+    image: '/generated/ocean-whale.jpg',
     rating: 4.8,
     reviewCount: 167,
     category: 'sea animals',
@@ -121,7 +121,7 @@ export const mockProducts: Product[] = [
     name: 'Friendly Dolphin',
     price: 24.99,
     originalPrice: 28.99,
-    image: '/images/friendly-dolphin.jpg',
+    image: '/generated/friendly-dolphin.jpg',
     rating: 4.7,
     reviewCount: 132,
     category: 'sea animals',
@@ -131,7 +131,7 @@ export const mockProducts: Product[] = [
     id: '12',
     name: 'Cuddly Seal',
     price: 22.99,
-    image: '/images/cuddly-seal.jpg',
+    image: '/generated/cuddly-seal.jpg',
     rating: 4.5,
     reviewCount: 76,
     category: 'sea animals',
@@ -145,25 +145,25 @@ export const categories = [
     id: 'bears',
     name: 'Bears',
     description: 'Classic teddy bears and cuddly bear friends',
-    image: '/images/category-bears.jpg'
+    image: '/generated/category-bears.jpg'
   },
   {
     id: 'farm-animals',
     name: 'Farm Animals',
     description: 'Friendly farm friends for learning and play',
-    image: '/images/category-farm.jpg'
+    image: '/generated/category-farm.jpg'
   },
   {
     id: 'wild-animals',
     name: 'Wild Animals',
     description: 'Adventure-ready wild animal companions',
-    image: '/images/category-wild.jpg'
+    image: '/generated/category-wild.jpg'
   },
   {
     id: 'sea-animals',
     name: 'Sea Animals',
     description: 'Ocean creatures for aquatic adventures',
-    image: '/images/category-sea.jpg'
+    image: '/generated/category-sea.jpg'
   }
 ];
 
@@ -176,7 +176,7 @@ export const testimonials = [
     name: 'Sarah M.',
     rating: 5,
     comment: 'My daughter absolutely loves her new teddy bear! The quality is amazing and it\'s so soft.',
-    avatar: '/images/avatar-1.jpg',
+    avatar: '/generated/avatar-1.jpg',
     verified: true
   },
   {
@@ -184,7 +184,7 @@ export const testimonials = [
     name: 'Mike R.',
     rating: 5,
     comment: 'Fast shipping and great customer service. The lion toy is exactly as described!',
-    avatar: '/images/avatar-2.jpg',
+    avatar: '/generated/avatar-2.jpg',
     verified: true
   },
   {
@@ -192,7 +192,7 @@ export const testimonials = [
     name: 'Emily K.',
     rating: 4,
     comment: 'Perfect gifts for my nephew\'s birthday. He hasn\'t put down the monkey since he got it!',
-    avatar: '/images/avatar-3.jpg',
+    avatar: '/generated/avatar-3.jpg',
     verified: true
   }
 ];
