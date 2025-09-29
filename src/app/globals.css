@@ -1,11 +1,20 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */
 
 :root {
-  --background: 0 0% 100%;
+  /* ToyPaws Brand Colors */
+  --toypaws-coral: 335 100% 71%;        /* #FF6B9D coral pink */
+  --toypaws-sky: 177 65% 59%;           /* #4ECDC4 sky blue */
+  --toypaws-yellow: 54 100% 71%;        /* #FFE66D sunshine yellow */
+  --toypaws-mint: 165 61% 73%;          /* #95E1D3 forest green/mint */
+  --toypaws-cream: 43 100% 96%;         /* #FFFCF5 warm cream */
+  --toypaws-soft-purple: 250 50% 85%;   /* #C4B5FD soft purple */
+
+  --background: 43 100% 96%;  /* Warm cream background like design */
   --foreground: 222.2 84% 4.9%;
 
   --card: 0 0% 100%;
@@ -14,16 +23,16 @@ All colors MUST be HSL.
   --popover: 0 0% 100%;
   --popover-foreground: 222.2 84% 4.9%;
 
-  --primary: 222.2 47.4% 11.2%;
+  --primary: 177 65% 59%;  /* Sky blue as primary */
   --primary-foreground: 210 40% 98%;
 
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
+  --secondary: 335 100% 71%;  /* Coral pink as secondary */
+  --secondary-foreground: 210 40% 98%;
 
-  --muted: 210 40% 96.1%;
+  --muted: 165 61% 73%;  /* Mint green for muted */
   --muted-foreground: 215.4 16.3% 46.9%;
 
-  --accent: 210 40% 96.1%;
+  --accent: 54 100% 71%;  /* Sunshine yellow for accent */
   --accent-foreground: 222.2 47.4% 11.2%;
 
   --destructive: 0 84.2% 60.2%;
@@ -31,9 +40,9 @@ All colors MUST be HSL.
 
   --border: 214.3 31.8% 91.4%;
   --input: 214.3 31.8% 91.4%;
-  --ring: 222.2 84% 4.9%;
+  --ring: 177 65% 59%;  /* Sky blue ring */
 
-  --radius: 0.5rem;
+  --radius: 0.75rem;
 
   --sidebar-background: 0 0% 98%;
   --sidebar-foreground: 240 5.3% 26.1%;
@@ -94,12 +103,20 @@ All colors MUST be HSL.
   --color-ring: hsl(var(--ring));
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
-  
+
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
-  
+
   --color-secondary: hsl(var(--secondary));
   --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  /* ToyPaws Brand Colors */
+  --color-toypaws-coral: hsl(var(--toypaws-coral));
+  --color-toypaws-sky: hsl(var(--toypaws-sky));
+  --color-toypaws-yellow: hsl(var(--toypaws-yellow));
+  --color-toypaws-mint: hsl(var(--toypaws-mint));
+  --color-toypaws-cream: hsl(var(--toypaws-cream));
+  --color-toypaws-soft-purple: hsl(var(--toypaws-soft-purple));
   
   --color-destructive: hsl(var(--destructive));
   --color-destructive-foreground: hsl(var(--destructive-foreground));
@@ -160,4 +177,15 @@ All colors MUST be HSL.
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.toypaws-hero-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
 }
